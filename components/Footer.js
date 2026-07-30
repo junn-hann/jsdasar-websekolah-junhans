@@ -1,11 +1,10 @@
-import { Component } from "./Components.js";
+import { Component } from "./Component.js";
 export class Footer extends Component {
 render() {
 const tahun = new Date().getFullYear();
 return `
-<hr/>
 <footer>
-<small>&copy; ${tahun} SMA Negeri Harapan Bangsa — Semua hak dilindungi.</small>
+<small>&copy; ${tahun} SMK YADIKA SOREANG — Semua hak dilindungi.</small>
 </footer>
 `;
 }
